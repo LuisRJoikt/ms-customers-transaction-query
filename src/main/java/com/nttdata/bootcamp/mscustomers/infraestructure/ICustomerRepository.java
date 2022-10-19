@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 import com.nttdata.bootcamp.mscustomers.model.Customer;
 
 import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
 
 @Repository
 public interface ICustomerRepository extends ReactiveMongoRepository<Customer,Integer>{
