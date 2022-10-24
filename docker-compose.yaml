@@ -1,7 +1,7 @@
 version: '3.9'
 services: 
   mongodb:
-    container_name: ms-customers-transaction-query
+    container_name: db-customers-transaction-query
     image: mongo
     hostname: host-bank
     restart: always
